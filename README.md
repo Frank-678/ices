@@ -1,0 +1,1 @@
+All data in comments.csv, collected from Metacritic (https://www.metacritic.com/game/minecraft/user-reviews/?platform=pc),and formatted by AI into CSV format
