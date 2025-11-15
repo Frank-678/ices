@@ -31,9 +31,9 @@ def classify_sentiment(score):
     global pos, neu, neg  # 注解易错：Python中修改全局变量必须global声明，而读取不需要。
 
     # Justify sentiment intensity
-    if score < -0.5:
+    if score < -0.05:
         neg += 1
-    elif score > 0.5:
+    elif score > 0.05:
         pos += 1
     else:
         neu += 1 # 注：这里用match-case可能会麻烦（case不能是不等号）
